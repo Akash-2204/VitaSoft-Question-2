@@ -22,7 +22,7 @@ router.post(
         //     min : 7
         // })
     ], 
-    authController.signup
+    authController.signup 
 );
 
 router.post(
