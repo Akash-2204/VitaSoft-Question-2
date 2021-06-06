@@ -17,7 +17,7 @@ app.use((req, res, next) => {
     next();
 });
 
-app.use('/',authRoutes);
+app.use('/auth',authRoutes);
 
 app.use(errorController.get404);
 app.use(errorController.get500);
